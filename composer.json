@@ -27,5 +27,11 @@
   "support": {
     "issues": "https://github.com/gugamd93/drupal-quality-checker/issues",
     "source": "https://github.com/gugamd93/drupal-quality-checker"
-  }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "phpro/grumphp": true
+    }
 }
